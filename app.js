@@ -1,8 +1,8 @@
-const canvas = document.getElementById('jsCanvas');
+const canvas = document.querySelector('#jsCanvas');
 const ctx = canvas.getContext('2d');
-const colors  = document.getElementsByClassName('jsColor');
-const range = document.getElementById('jsRange');
-const mode = document.getElementById('jsMode');
+const colors  = document.querySelectorAll('.jsColor');
+const range = document.querySelector('jsRange');
+const mode = document.querySelector('jsMode');
 
 canvas.height = 700;
 canvas.width = 700;
