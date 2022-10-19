@@ -94,7 +94,7 @@ if (canvas) {
     canvas.addEventListener('contextmenu', handleCM);
 }
 
-Array.from(colors).forEach(color => addEventListener('click', handleColorClick));
+colors.forEach(color => addEventListener('click', handleColorClick));
 
 if (range) {
     range.addEventListener('input', handleRangeChange)
